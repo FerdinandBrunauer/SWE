@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{712A3C19-5B73-4F0C-836D-2FDA2831C18C}</ProjectGuid>
+    <ProjectGuid>{79B078D6-12A3-4A31-936C-FB2FC4200250}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>SWE</RootNamespace>
+    <RootNamespace>My1_AboutMe</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
