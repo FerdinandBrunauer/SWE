@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_AboutMe", "1_AboutMe\1_Ab
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_RectAU", "2_RectAU\2_RectAU.vcxproj", "{B16380AE-FFBD-41ED-8626-29A177CF6DE7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_SieveOfErastosthenes", "3_SieveOfErastosthenes\3_SieveOfErastosthenes.vcxproj", "{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{B16380AE-FFBD-41ED-8626-29A177CF6DE7}.Release|x64.Build.0 = Release|x64
 		{B16380AE-FFBD-41ED-8626-29A177CF6DE7}.Release|x86.ActiveCfg = Release|Win32
 		{B16380AE-FFBD-41ED-8626-29A177CF6DE7}.Release|x86.Build.0 = Release|Win32
+		{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}.Debug|x64.ActiveCfg = Debug|x64
+		{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}.Debug|x64.Build.0 = Debug|x64
+		{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}.Debug|x86.ActiveCfg = Debug|Win32
+		{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}.Debug|x86.Build.0 = Debug|Win32
+		{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}.Release|x64.ActiveCfg = Release|x64
+		{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}.Release|x64.Build.0 = Release|x64
+		{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}.Release|x86.ActiveCfg = Release|Win32
+		{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
