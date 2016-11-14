@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_AboutMe", "1_AboutMe\1_AboutMe.vcxproj", "{79B078D6-12A3-4A31-936C-FB2FC4200250}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LV1", "LV1", "{3D8A673F-BCBE-4BA7-8F58-48FA4622AF31}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_RectAU", "2_RectAU\2_RectAU.vcxproj", "{B16380AE-FFBD-41ED-8626-29A177CF6DE7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_AboutMe", "LV1\1_AboutMe\1_AboutMe.vcxproj", "{79B078D6-12A3-4A31-936C-FB2FC4200250}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_SieveOfErastosthenes", "3_SieveOfErastosthenes\3_SieveOfErastosthenes.vcxproj", "{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_RectAU", "LV1\2_RectAU\2_RectAU.vcxproj", "{B16380AE-FFBD-41ED-8626-29A177CF6DE7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_SieveOfErastosthenes", "LV1\3_SieveOfErastosthenes\3_SieveOfErastosthenes.vcxproj", "{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LV2", "LV2", "{E2D382E4-3400-4198-B31D-7DBC098F08E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_Gehalt", "LV2\1_Gehalt\1_Gehalt.vcxproj", "{F0815934-52D1-4350-9B0F-9C190A2C9689}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,8 +47,22 @@ Global
 		{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}.Release|x64.Build.0 = Release|x64
 		{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}.Release|x86.ActiveCfg = Release|Win32
 		{2009207F-3DE6-4AA1-B33A-33CEA2740B4D}.Release|x86.Build.0 = Release|Win32
+		{F0815934-52D1-4350-9B0F-9C190A2C9689}.Debug|x64.ActiveCfg = Debug|x64
+		{F0815934-52D1-4350-9B0F-9C190A2C9689}.Debug|x64.Build.0 = Debug|x64
+		{F0815934-52D1-4350-9B0F-9C190A2C9689}.Debug|x86.ActiveCfg = Debug|Win32
+		{F0815934-52D1-4350-9B0F-9C190A2C9689}.Debug|x86.Build.0 = Debug|Win32
+		{F0815934-52D1-4350-9B0F-9C190A2C9689}.Release|x64.ActiveCfg = Release|x64
+		{F0815934-52D1-4350-9B0F-9C190A2C9689}.Release|x64.Build.0 = Release|x64
+		{F0815934-52D1-4350-9B0F-9C190A2C9689}.Release|x86.ActiveCfg = Release|Win32
+		{F0815934-52D1-4350-9B0F-9C190A2C9689}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79B078D6-12A3-4A31-936C-FB2FC4200250} = {3D8A673F-BCBE-4BA7-8F58-48FA4622AF31}
+		{B16380AE-FFBD-41ED-8626-29A177CF6DE7} = {3D8A673F-BCBE-4BA7-8F58-48FA4622AF31}
+		{2009207F-3DE6-4AA1-B33A-33CEA2740B4D} = {3D8A673F-BCBE-4BA7-8F58-48FA4622AF31}
+		{F0815934-52D1-4350-9B0F-9C190A2C9689} = {E2D382E4-3400-4198-B31D-7DBC098F08E3}
 	EndGlobalSection
 EndGlobal

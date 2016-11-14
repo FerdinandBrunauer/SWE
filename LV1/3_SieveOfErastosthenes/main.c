@@ -8,8 +8,8 @@
 * file: main.c
 *
 * date: 2016-10-10
-* progtimeest.: < 1sec
-* progtimereal: < 1  sec
+* progtimeest.: 15 min
+* progtimereal: 10 min
 * author: Ferdinand Brunauer
 * email: fbrunauer.itsb-b2016@fh-salzburg.ac.at
 *
