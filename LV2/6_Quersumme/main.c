@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -21,10 +23,17 @@ int main()
 {
 	printf("Please enter a long number: ");
 	char number[MAX_LENGTH];
-	fgets(number, sizeof(char), stdin);
+
+	if (scanf("%20s", number) != 1)
+	{
+		printf("Invalid input!");
+			fseek(stdin, 0, SEEK_END);
+			getchar();
+			return -1;
+	}
 
 	unsigned long long sum = 0;
-	for (int i = 0; i < MAX_LENGTH; i++)
+	for (int i = 0; i < MAX_LENGTH && number[i] != '\0'; i++)
 	{
 		if (number[i] >= 48 && number[i] <= 57)
 		{
