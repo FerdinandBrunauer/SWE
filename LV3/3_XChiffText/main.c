@@ -25,6 +25,6 @@ int main()
 	unsigned long long number = 0;
 	while ((ch = fgetc(stdin)) != EOF)
 	{
-		fputc(ch ^= SECRET_AT_POSITION(number), stdout);
+		fputc(ch ^= SECRET_AT_POSITION(number++), stdout);
 	}
 }
