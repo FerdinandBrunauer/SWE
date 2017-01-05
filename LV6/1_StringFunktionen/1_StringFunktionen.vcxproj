@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F195FD0E-8CC1-4CA9-9F1A-C05C1AC17A6C}</ProjectGuid>
+    <ProjectGuid>{5FF67B3A-EC0A-44FE-851A-515CC263ADD8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My2_MatrixCalc</RootNamespace>
+    <RootNamespace>My1_StringFunktionen</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,18 +146,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\..\..\Users\ferdi\Desktop\main.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="string.c" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="MatrixCalc1.matrix">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <DeploymentContent>false</DeploymentContent>
-      <FileType>Text</FileType>
-    </None>
-    <None Include="MatrixCalc2.matrix">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Text</FileType>
-    </None>
+    <ClInclude Include="string.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
