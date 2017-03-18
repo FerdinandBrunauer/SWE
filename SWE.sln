@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LV1", "LV1", "{3D8A673F-BCBE-4BA7-8F58-48FA4622AF31}"
 EndProject
@@ -80,6 +80,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_Recursion", "LV8\3_Recursion\3_Recursion.vcxproj", "{5BEF9247-8E3E-4A6D-A35D-43E3A0A5DF2D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_FileInfo", "LV8\4_FileInfo\4_FileInfo.vcxproj", "{DE519FFF-C312-4835-935D-D1ECCD2DB20D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LV9", "LV9", "{222F6B20-4AE0-487A-A6B3-419EFCB031B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_Messwerte", "LV9\1_Messwerte\1_Messwerte.vcxproj", "{523E09B0-7E59-4785-AA91-0B82ED7A4CC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -337,6 +341,14 @@ Global
 		{DE519FFF-C312-4835-935D-D1ECCD2DB20D}.Release|x64.Build.0 = Release|x64
 		{DE519FFF-C312-4835-935D-D1ECCD2DB20D}.Release|x86.ActiveCfg = Release|Win32
 		{DE519FFF-C312-4835-935D-D1ECCD2DB20D}.Release|x86.Build.0 = Release|Win32
+		{523E09B0-7E59-4785-AA91-0B82ED7A4CC1}.Debug|x64.ActiveCfg = Debug|x64
+		{523E09B0-7E59-4785-AA91-0B82ED7A4CC1}.Debug|x64.Build.0 = Debug|x64
+		{523E09B0-7E59-4785-AA91-0B82ED7A4CC1}.Debug|x86.ActiveCfg = Debug|Win32
+		{523E09B0-7E59-4785-AA91-0B82ED7A4CC1}.Debug|x86.Build.0 = Debug|Win32
+		{523E09B0-7E59-4785-AA91-0B82ED7A4CC1}.Release|x64.ActiveCfg = Release|x64
+		{523E09B0-7E59-4785-AA91-0B82ED7A4CC1}.Release|x64.Build.0 = Release|x64
+		{523E09B0-7E59-4785-AA91-0B82ED7A4CC1}.Release|x86.ActiveCfg = Release|Win32
+		{523E09B0-7E59-4785-AA91-0B82ED7A4CC1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -373,5 +385,6 @@ Global
 		{F8B51E80-160F-4198-99E1-07712D70A8CC} = {26F71B39-7F69-4A08-8FDD-422191186B35}
 		{5BEF9247-8E3E-4A6D-A35D-43E3A0A5DF2D} = {26F71B39-7F69-4A08-8FDD-422191186B35}
 		{DE519FFF-C312-4835-935D-D1ECCD2DB20D} = {26F71B39-7F69-4A08-8FDD-422191186B35}
+		{523E09B0-7E59-4785-AA91-0B82ED7A4CC1} = {222F6B20-4AE0-487A-A6B3-419EFCB031B1}
 	EndGlobalSection
 EndGlobal
